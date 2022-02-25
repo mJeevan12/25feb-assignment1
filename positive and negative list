@@ -1,0 +1,10 @@
+l=[]
+p=[]
+n=int(input())
+for i in range(n):
+    x=int(input())
+    if x>0:
+        l.append(x)       
+    else:
+        p.append(x)
+print(l,  '   ' ,p)  
